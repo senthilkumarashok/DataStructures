@@ -1,15 +1,15 @@
 package com.training.materials.sorting;
 
-Class QuickSort {
+public class QuickSort {
 
-  public void quicksort(int[] nums, int low, int high) {
+  public static void sort(Integer[] nums, int low, int high) {
 
     int pivot = partition(nums, 0, nums.length);
-    quicksort(nums, 0, pivot-1);
-    quicksort(nums, pivot+1, nums.length);
+    sort(nums, 0, pivot-1);
+    sort(nums, pivot+1, nums.length);
   }
 
-  private int partition(int[] nums, int low, int high) {
+  private static int partition(Integer[] nums, int low, int high) {
     int pivot = nums[low];
     int l = low;
     int h = high;
@@ -24,9 +24,10 @@ Class QuickSort {
       swap(nums, l, h);
     }
     swap(nums, low, h);
+    return h;
   }
 
-  private void swap(int[] nums, int i , int j) {
+  private static void swap(Integer[] nums, int i , int j) {
     int temp = nums[j];
     nums[j] = nums[i];
     nums[i] = temp;
