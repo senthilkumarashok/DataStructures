@@ -7,7 +7,7 @@ public class MergeSort {
 
   public static Integer[] mergeSort(Integer[] nums) {
     int length = nums.length;
-    if(length == 1) return nums;
+    if(length <= 1) return nums;
     int middle = length/2;
     Integer[] L = split(nums, 0 , middle-1);
     Integer[] R = split(nums, middle, length-1);
