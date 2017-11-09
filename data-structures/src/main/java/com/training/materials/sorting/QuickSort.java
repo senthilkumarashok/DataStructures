@@ -1,30 +1,50 @@
 package com.training.materials.sorting;
 
+import java.util.Arrays;
+
 public class QuickSort {
 
-  public static void sort(Integer[] nums, int low, int high) {
+  public static void sort(Integer[] nums) {
 
-    int pivot = partition(nums, 0, nums.length);
-    sort(nums, 0, pivot-1);
-    sort(nums, pivot+1, nums.length);
+    quicksort(nums, 0, nums.length-1);
+    //System.out.println(" pivot :: "+pivot);
+    //sort(nums, low, pivot-1);
+    //sort(nums, pivot+1, nums.length-1);
   }
 
-  private static int partition(Integer[] nums, int low, int high) {
-    int pivot = nums[low];
-    int l = low;
-    int h = high;
-    while(l < h) {
+  private static void quicksort(Integer[] nums, int start, int end) {
+
+    if(end - start + 1 <= 1) return;
+
+    int pivot = end;
+    int low = start;
+    int high = end-1;
+
+    while(low <= high) {
       // 6, 5, 4, 2, 1, 10, 3, 7, 8, 9
-      while(nums[l] <= pivot && l < h) {
-        l++;
+      while(low <= high && nums[low] <= nums[pivot]) {
+        low++;
       }
-      while(nums[h] > pivot) {
-        h--;
+
+      while(high >= low && nums[high] > nums[pivot]) {
+        high--;
       }
-      swap(nums, l, h);
+
+      if(low < high) {
+        swap(nums, low, high);
+      }
+      //System.out.println("nums :: "+ Arrays.toString(nums));
     }
-    swap(nums, low, h);
-    return h;
+    //System.out.println("low ::" + low + " h ::" + h);
+    if(pivot != low) {
+      swap(nums, pivot, low);
+    }
+      quicksort(nums, start, low-1);
+      quicksort(nums, low+1, end);
+    
+    //partition(nums, 0, h-1);
+    //partition(nums, h+1, high);
+    //return low;
   }
 
   private static void swap(Integer[] nums, int i , int j) {
