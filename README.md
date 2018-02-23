@@ -56,6 +56,7 @@
 # Binary Tree
 
 	Tree with min = 0 or max = 2 children
+	
 	Binary Tree can be created using two ways
 		* Arrays - Practice Needed
 		* Node (LinkedList) - Practice Needed
