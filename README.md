@@ -53,4 +53,17 @@
 	Functional Interface - should have only one abstract method
 		list of functional interfaces - Consumer, Supplier, Predicate
 
+# Binary Tree
 
+	Tree with min = 0 or max = 2 children
+	Binary Tree can be created using two ways
+		* Arrays - Practice Needed
+		* Node (LinkedList) - Practice Needed
+		
+	Traversals
+		* DFS
+			inorder, preorder, postorder - which order is preferred in which use cases ??
+		* BFS
+			levelorder
+			
+	Applications & Real usecase - Need to find ??
