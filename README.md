@@ -68,6 +68,9 @@
 	* Programs stored in Memory
 		Multiple frames ( Stack, Heap, Texted Segment, Initialized data, Uninitialized Data, Command & Env Variables )
 	* Stack Frame in a memory
+	* when two threads access the program segment at same time ? what happens ? How it is prevented ?
+	* Mutex
+	* Semaphore
 	
 # Binary Tree
 
