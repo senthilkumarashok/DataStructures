@@ -71,6 +71,7 @@
 	* when two threads access the program segment at same time ? what happens ? How it is prevented ?
 	* Mutex
 	* Semaphore
+	* Priority Inversion Vs Priority Inheritance
 	
 # Binary Tree
 
