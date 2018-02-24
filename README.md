@@ -36,6 +36,9 @@
   
 # Heap
 
+# Map
+	* How is map internally stored in C++ and TreeMap in Java (Red Black Tree)
+
 # MultiDimensional Arrays
 
 	2D dimensional Arrays - Chess
@@ -53,6 +56,13 @@
 	Functional Interface - should have only one abstract method
 		list of functional interfaces - Consumer, Supplier, Predicate
 
+# OS related questions
+
+	* Thread Vs Process
+	* Programs stored in Memory
+		Multiple frames ( Stack, Heap, Texted Segment, Initialized data, Uninitialized Data, Command & Env Variables )
+	* Stack Frame in a memory
+	
 # Binary Tree
 
 	Tree with min = 0 or max = 2 children
@@ -68,3 +78,14 @@
 			levelorder
 			
 	Applications & Real usecase - Need to find ??
+	Problems
+	        * vertical sum of the tree
+		* maximum width
+		* maximum depth
+		* create binary tree from array
+		* create binary tree from linked list
+		* 
+		
+		
+Ref Links
+https://www.youtube.com/watch?v=il_t1WVLNxk
