@@ -36,8 +36,14 @@
   
 # Heap
 
+# Graph
+
+	Lets say if app needs libraries to install and these libraries have dependency between each other . 
+	How do you build the dependencies using specific data structure ? DAG (Directed Acyclic Graph) ???
+	
 # Map
-	* How is map internally stored in C++ and TreeMap in Java ( Red Black Tree which uses O(log n) for searching, inserting, deleting operations )
+
+	How is map internally stored in C++ and TreeMap in Java ( Red Black Tree which uses O(log n) for searching, inserting, deleting operations )
 
 # MultiDimensional Arrays
 
