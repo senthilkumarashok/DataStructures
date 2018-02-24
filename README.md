@@ -37,7 +37,7 @@
 # Heap
 
 # Map
-	* How is map internally stored in C++ and TreeMap in Java (Red Black Tree)
+	* How is map internally stored in C++ and TreeMap in Java ( Red Black Tree which uses O(log n) for searching, inserting, deleting operations )
 
 # MultiDimensional Arrays
 
