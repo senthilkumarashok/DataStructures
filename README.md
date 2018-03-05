@@ -72,6 +72,26 @@
 	* Mutex
 	* Semaphore
 	* Priority Inversion Vs Priority Inheritance
+
+# Tree
+
+	* Tree Definition
+	* Tree traversals
+	* Tree Operations
+	* Tree Applications
+	* Tree Approaches
+	* Tricky problems
+	* Complexity & Analysis
+	
+# Tree Classifications
+
+	* Binary Tree
+	* Threaded Tree
+	* Binary Search Tree
+	* AVL, RedBlack, Splay, B-Tree
+	* XOR, Tournament Tree
+	* Heap
+	* Trie
 	
 # Binary Tree
 
