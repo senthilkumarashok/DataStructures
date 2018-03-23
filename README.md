@@ -119,3 +119,20 @@
 		
 Ref Links
 https://www.youtube.com/watch?v=il_t1WVLNxk
+
+# Lessons Learned
+
+	*  use numbers instead of string conversion ? reverse a number or rotate a digit
+	
+
+ # Problems
+ 
+ 1. verify whether two strings are anagram to each other ?
+ 2. find the common elements in two sorted list ( can be both ascending , descending, or both can be different) ?
+ 3. In Big O Notation is logN base to 2 or 10 ?
+ 4. reverse a string
+ 5. product except self (leetcode)
+ 6.
+ 
+ 
+ 
