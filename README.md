@@ -132,7 +132,14 @@ https://www.youtube.com/watch?v=il_t1WVLNxk
  3. In Big O Notation is logN base to 2 or 10 ?
  4. reverse a string
  5. product except self (leetcode)
- 6.
+ 
+ 
+# Design Problems
+
+ 1. Design Max Stack (leetcode) peek, peekMax, pop, popMax
+ 2. Design InMemory file system (using two hashMaps)
+ 
+ 
  
  
  
