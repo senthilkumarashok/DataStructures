@@ -137,7 +137,8 @@ https://www.youtube.com/watch?v=il_t1WVLNxk
 # Design Problems
 
  1. Design Max Stack (leetcode) peek, peekMax, pop, popMax
- 2. Design InMemory file system (using two hashMaps)
+ 2. Design InMemory file system <b>Hint : using two hashMaps</b>
+ 3. Design an string iterator for compressed string .
  
  
  
