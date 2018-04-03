@@ -32,7 +32,7 @@
 	>>	Signed right shift	Shifts right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off
 	>>>	Zero fill right shift	Shifts right by pushing zeros in from the left, and let the rightmost bits fall off
 	
-	Reference : https://code.tutsplus.com/articles/understanding-bitwise-operators--active-11301
+	Reference : <a href="https://code.tutsplus.com/articles/understanding-bitwise-operators--active-11301"></a>
   
 # Heap
 
@@ -51,7 +51,7 @@
 	3D dimensional Arrays - Car Parking with levels
 	Multi Dimensional Arrays - for Matrices
 
-	https://introcs.cs.princeton.edu/java/14array/
+	<a href="https://introcs.cs.princeton.edu/java/14array/"></a>
   
 # Lambda Expressions
 
